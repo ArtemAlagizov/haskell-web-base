@@ -12,4 +12,5 @@ RUN stack install cabal-install && stack install heist-1.0.1.2 \
     && stack install hspec && stack install hspec-snap \
     && stack install hspec-core && stack install snap-core \
     && stack install postgresql-simple && stack install resource-pool
+RUN rm -f opt/net-fortune/haskell-web-base.cabal
 RUN stack build
