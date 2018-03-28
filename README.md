@@ -1,6 +1,11 @@
 # haskell-web-base
 
-Docker image with the following installed:
+Docker image is available here - https://hub.docker.com/r/alagiz/haskell-web-base/
+```
+docker pull alagiz/haskell-web-base
+```
+
+The image has the following installed:
 * ghc-8.2.2
 * stack-1.6.5
 *	Cabal-2.0.1.1
